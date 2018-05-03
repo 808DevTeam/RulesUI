@@ -36,13 +36,13 @@ class Main extends PluginBase implements Listener {
 						   
 						}
 					});
-					$form->setTitle("RebirthPE RulesUI Screen");
+					$form->setTitle("Server Rules By Bajan Edited By 808DevTeam");
 					$form->setContent("Please follow the rules.");
 					$form->adddropdown(TextFormat::BOLD . "Please respect staff and dont hack");	
 					$form->sendToPlayer($sender);
 				}
 				else{
-					$sender->sendMessage(TextFormat::RED . "Use this Command in-game.");
+					$sender->sendMessage(TextFormat::RED . "Use This Command In-Game.");
 					return true;
 				}
 			break;
